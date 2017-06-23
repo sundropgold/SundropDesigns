@@ -1,0 +1,602 @@
+/* ---------- IMPORT FONTS ---------- */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+/*---------- GENERAL STYLES ----------*/
+
+div.container {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+section#home {
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	background-color: white;
+}
+
+.container#cloud{
+	position:absolute;
+	width:100%;
+	top:0;
+	left:0;
+	right:0;
+}
+
+.container#title {
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15%;
+	width:95%;
+}
+
+.container#content, .container#p {
+	position:relative;
+	width:50%;
+	margin-top:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.container#nav {
+	position:fixed;
+	width:100%;
+	height:auto;
+	top:90%;
+	bottom:0;
+}
+
+/*---------- TEXT STYLES ----------*/
+h1 a {
+	font-family:'Amatic SC', cursive;
+	font-size:55px;
+	color:#ffa3d4;
+	font-style: none;
+	text-decoration: none;
+
+	padding-top:3%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:9%;
+
+	position:relative;
+	text-align:center;
+	align:center;
+}
+
+h1 a:hover{
+	color:#ffe49b;
+}
+
+h3 {
+	font-family: 'Amatic SC', cursive;
+	font-size:45px;
+	color:#9e9bff;
+	font-style:none;
+	text-decoration-color:none;
+}
+
+p#content, p {
+	font-family:'Josefin Slab', serif;
+	font-size:20px;
+	color:#9a98f9;
+	font-style:none;
+	text-decoration: none;
+
+	margin-left:auto;
+	margin-right:auto;
+
+	position:relative;
+	text-align:center;
+}
+
+a {
+	font-style:none;
+}
+
+/*---------- NAVIGATION STYLES ----------*/
+
+nav {
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	position:fixed;
+}
+
+nav a {
+	align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:5%;
+	padding-left:6%;
+
+
+	font-family:'Josefin Slab', serif;
+	text-align:center;
+	font-size:16px;
+	color:#ce8eff;
+	font-style:none;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	color:#ffe49b;
+}
+
+nav a:active {
+	color:#ffe49b;
+}
+
+nav a:visited {
+	color:#9e9bff;
+}
+
+/*---------- FORM STYLES ----------*/
+
+input#submit, input#reset, input#search, input#purchase {
+	background-color:white;
+	width:150px;
+	height:50px;
+	padding:3%;
+	margin:2%;
+	border-style:dashed;
+	border-width:2px;
+	border-color:#9e9bff;
+	color:#ffa3d4;
+	font-family:'Josefin Slab', serif;
+	font-size:17px;
+}
+
+form#shopping {
+	font-family:'Josefin Slab', serif;
+	text-align:center;
+	font-size:16px;
+	color:#ce8eff;
+	font-style:none;
+	text-decoration: none;
+}
+
+/*---------- MOBILE STYLES ----------*/
+
+img#cloud {
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	width:100%;
+	height:auto;
+}
+
+img#ft {
+	position:relative;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:5%;
+}
+
+/*---------- XSMALL TABLET STYLES ----------*/
+
+@media only screen and (min-width:440px) {
+
+
+	/* ********** TITLE *********** */	
+	.container#title {
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:17%;
+		margin-left:2%;
+		width:500px;
+	}
+	
+	h1 a {
+		font-family:'Amatic SC', cursive;
+		font-size:55px;
+		color:#ffa3d4;
+		font-style: none;
+		text-decoration: none;
+
+		padding-top:3%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:15%;
+	}
+
+	/* ********** IMG ********** */
+
+	img#cloud {
+		position:absolute;
+		top:0;
+		right:0;
+		left:0;
+		width:100%;
+		height:auto;
+	}
+	
+	img#ft {
+		position:relative;
+		width:70%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:20%;
+	}
+
+	/* ********** CONTENT ********** */
+	.container#content {
+		position:absolute;
+		width:50%;
+		margin-top:45%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.container#p {
+		position:absolute;
+		width:50%;
+		margin-top:45%;
+		margin-left:20%;
+		margin-right:auto;
+	}
+
+	p#thanku {
+		margin-top:40%;
+		margin-left:5%;
+	}
+}
+
+/*---------- TRANSITION TABLET STYLES ----------*/
+
+@media only screen and (min-width:520px) {
+
+
+	/* ********** TITLE *********** */	
+	.container#title {
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:17%;
+		margin-left:2%;
+		width:500px;
+	}
+	
+	h1 a {
+		font-family:'Amatic SC', cursive;
+		font-size:55px;
+		color:#ffa3d4;
+		font-style: none;
+		text-decoration: none;
+
+		padding-top:3%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:23%;
+	}
+
+	/* ********** IMG ********** */
+	img#ft {
+		position:relative;
+		width:60%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:0%;
+	}
+
+	/* ********** CONTENT ********** */
+	.container#content {
+		position:absolute;
+		width:50%;
+		margin-top:45%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.container#p {
+		position:absolute;
+		width:50%;
+		margin-top:40%;
+		margin-left:24%;
+		margin-right:auto;
+	}
+
+	p#thanku {
+		margin-top:30%;
+		margin-left:-20%;
+	}
+
+}
+
+/*---------- SMALL TABLET STYLES ----------*/
+
+@media only screen and (min-width:660px) {
+
+	/* ********** CLOUD ********** */
+	img#cloud{
+		width:100%;
+		height:auto;
+		margin-top:0%;
+		left:0;
+		right:0;
+	}
+
+	/* ********** TITLE *********** */	
+	.container#title {
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:17%;
+		margin-left:15%;
+		width:500px;
+	}
+	
+	h1 a {
+		font-family:'Amatic SC', cursive;
+		font-size:55px;
+		color:#ffa3d4;
+		font-style: none;
+		text-decoration: none;
+
+		padding-top:3%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:25%;
+	}
+
+	/* ********** NAV ********** */
+	.container#nav {
+		position:fixed;
+		width:100%;
+		height:auto;
+		top:90%;
+		bottom:0;
+	}
+
+	nav a {
+		align:center;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:5%;
+		padding-left:10%;
+
+	}
+
+	/* ********** IMG ********** */
+	img#ft {
+		position:relative;
+		width:70%;
+		margin-left:23%;
+		margin-right:auto;
+		margin-top:10%;
+	}
+
+	/* ********** CONTENT ********** */
+	.container#content {
+		position:relative;
+		width:40%;
+		margin-top:35%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.container#p {
+		position:absolute;
+		width:50%;
+		margin-top:5%;
+		margin-left:22%;
+		margin-right:auto;
+	}
+
+	p#thanku {
+		margin-top:80%;
+		margin-left:7%;
+	}
+}
+
+/*---------- TRANSITION TABLET STYLES -----------*/
+
+@media only screen and (min-width:770px) {
+
+	/* ********** IMG ********** */
+	img#ft {
+		position:relative;
+		width:55%;
+		margin-left:24%;
+		margin-right:auto;
+		margin-top:5%;
+	}
+
+	.container#p {
+		position:absolute;
+		width:45%;
+		margin-top:0%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+
+	p#thanku {
+		margin-top:85%;
+		margin-left:-5%;
+	}
+
+}
+
+/*---------- LARGE TABLET STYLES ----------*/
+@media only screen and (min-width:950px) {
+
+	/* ********** CLOUD ********** */
+	img#cloud{
+		width:100%;
+		height:auto;
+		margin-top:-1%;
+		left:0;
+		right:0;
+	}
+
+	/* ********** TITLE *********** */
+
+	.container#title {
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:14%;
+		width:500px;
+	}
+	
+	h1 a {
+		font-family:'Amatic SC', cursive;
+		font-size:55px;
+		color:#ffa3d4;
+		font-style: none;
+		text-decoration: none;
+
+		padding-top:3%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:20%;
+	}
+
+	/* ********** NAV ********** */
+	.container#nav {
+		position:fixed;
+		width:100%;
+		height:auto;
+		top:90%;
+		bottom:0;
+	}
+
+	nav a {
+		align:center;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:5%;
+		padding-left:12%;
+
+	}
+
+	/* ********** IMG ********** */
+	img#ft {
+		position:relative;
+		width:45%;
+		margin-left:25%;
+		margin-right:auto;
+		margin-top:0%;
+	}
+
+	/* ********** CONTENT ********** */
+	.container#content {
+		position:absolute;
+		width:50%;
+		margin-top:30%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.container#p {
+		position:absolute;
+		width:45%;
+		margin-top:35%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+
+	p#thanku {
+		margin-top:5%;
+		margin-left:10%;
+	}
+
+}
+
+/*---------- DESKTOP STYLES ----------*/
+@media only screen and (min-width:990px) {
+
+	/* ********** CLOUD ********** */
+	img#cloud{
+		width:100%;
+		height:auto;
+		margin-top:-3%;
+		left:0;
+		right:0;
+	}
+
+	/* ********** TITLE *********** */
+
+	.container#title {
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:12%;
+		width:500px;
+	}
+	
+	h1 a {
+		font-family:'Amatic SC', cursive;
+		font-size:55px;
+		color:#ffa3d4;
+		font-style: none;
+		text-decoration: none;
+
+		padding-top:3%;
+		margin-left:auto;
+		margin-right:auto;
+		padding-left:20%;
+	}
+
+	/* ********** NAV ********** */
+	.container#nav {
+		position:fixed;
+		width:100%;
+		height:auto;
+		top:90%;
+		bottom:0;
+	}
+
+	nav a {
+		align:center;
+		margin-left:auto;
+		margin-right:auto;
+		padding-top:5%;
+		padding-left:14%;
+
+	}
+
+	/* ********** IMG ********** */
+	img#ft {
+		position:relative;
+		width:40%;
+		margin-left:30%;
+		margin-right:auto;
+		margin-top:-5%;
+	}
+
+	/* ********** CONTENT ********** */
+	.container#content {
+		position:relative;
+		width:50%;
+		margin-top:25%;
+		margin-left:25%;
+		margin-right:auto;
+	}
+
+	.container#p {
+		position:absolute;
+		width:25%;
+		margin-top:0%;
+		margin-left:36%;
+		margin-right:auto;
+	}
+
+
+	p#thanku {
+		margin-top:110%;
+		margin-left:-3%;
+	}
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/store.css">
+		<link rel="shortcut icon" href="imgs/white_rukh.gif">
+		
+	</head>
+
+	<body>
+		<section id="home">
+			<div class="container" id="cloud">	
+				<img id="cloud" src="imgs/clouds.png">
+
+			</div>
+			<div class="container" id="title">
+				<h1><a id="title" href="store.html">Sundrop Designs  ☀</a></h1>
+			</div>
+		</section>
+
+		<!-- SECTION FOR CONTENT -->
+		<section id="content" class="content">
+			<div class="container" id="content">
+
+				<p id="purchase">
+					
+					<form action="purchase.php" method="post" name="shopping" id="shopping">
+						Name: <input type='text' name='customername' required>
+						<br/><br/>
+						Email: <input type="email" name="email">
+						<br/><br/>
+						Product: <select name="products">
+								<option disabled selected value> -- select product -- </option>
+								<option value="calendar">Calendar</option>
+								<option value="zine">Zine</option>
+								</select>
+						<br/><br/>
+						Quantity: <input type="number" name="quantity">
+						<br/>
+						<br/>
+						<input type="submit" name="purchase" id="purchase">
+						<input type="reset" name="reset" id="reset">
+
+					</form>
+
+				</p>
+
+			</div>
+		</section>
+
+		<section id="nav" class="space">
+		<!-- NAVIGATION BAR -->
+			<div class="container" id="nav">
+		
+				<nav>
+
+					<a href="store.html" class="returnlinks">return</a>
+
+
+				</nav>
+		
+			</div>
+		</section>
+
+
+
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/store.js"></script>
+	</body>
+
+</html>
