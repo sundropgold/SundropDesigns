@@ -1,3 +1,12 @@
 # SundropDesigns
+## Shop now for some sunny discounts!
 
-A mockup e-commerce store incorporating PHP.
+### Summary
+Sundrop Designs is a mockup e-commerce store incorporating PHP.
+
+### Features
+* PHP
+* Jquery
+
+### Demo
+N/A
